@@ -5,13 +5,14 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "dev":"nodemon index.js"
+    "dev": "nodemon index.js"
   },
   "keywords": [],
   "author": "vikrant patel",
   "license": "ISC",
   "description": "a simple manager for different tea",
   "dependencies": {
+    "dotenv": "^17.2.0",
     "express": "^5.1.0"
   },
   "devDependencies": {
